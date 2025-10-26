@@ -37,8 +37,10 @@ if __name__ == "__main__":
         choice = choice.strip().lower()
 
         if choice == 'exit':
-            console.print("[bold red]You decide to leave the forest... for now.[/bold red]")
+            console.print("[bold red]You decide to leave the forest...[/bold red]")
+            console.print("[italic green]Goodbye, traveler. The adventure awaits another day![/italic green]")
             break
+
         
         result = step(choice, events)
         console.print(Panel(result, border_style="cyan"))
