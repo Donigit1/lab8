@@ -39,6 +39,7 @@ if __name__ == "__main__":
         if choice == 'exit':
             console.print("[bold red]You decide to leave the forest...[/bold red]")
             console.print("[italic green]Goodbye, traveler. The adventure awaits another day![/italic green]")
+            console.print("[bold cyan]Thanks for playing![/bold cyan]")
             break
 
         
